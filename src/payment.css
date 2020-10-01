@@ -1,0 +1,43 @@
+.payment{
+    background-color: white;
+
+}
+.payment__container h1{
+    text-align:center;
+    padding:20px;
+    font-weight:400;
+    background-color: rgb(204, 182, 182);
+    border-bottom:1px solid lightgray;
+}   
+.payment__container h1 a{
+    text-decoration: none;
+}
+.payment__section{
+    display: flex;
+    padding:20px;
+    margin:0 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.payment__title{
+    flex:0.2;
+}
+.payment__address{
+    flex:0.8;
+}
+.payment__items, .payment__details{
+    flex:0.8;
+}
+.payment__details form div button{
+    background-color: #dabe23;
+    color:black;
+    width:100%;
+    margin:10px;
+    padding:5px;
+    border-radius: 5px;
+}
+.payment__details form div button:hover{
+    background-color: darkgreen;
+color:white;
+transition: 0.4s;
+border-radius: 4px;
+}
