@@ -20,10 +20,10 @@ const promise=loadStripe("pk_test_51HRColFi3enyg1GlqIYMyra3jVd8zHj0Kal7sN5Tzfqxb
 function App() {
 
   const[{},dispatch]=useStateValue()
-  useEffect(()=>{
-    
 
-auth.onAuthStateChanged(authUser=>{
+
+  useEffect(()=>{
+    auth.onAuthStateChanged(authUser=>{
   // console.log('the useris >>>>>' ,authUser)
 
   if(authUser){
@@ -56,7 +56,7 @@ auth.onAuthStateChanged(authUser=>{
           <Route path="/checkout">
           <Header />
             <CheckOut />
-
+ 
           </Route>
           <Route path="/payment">
           <Header />
